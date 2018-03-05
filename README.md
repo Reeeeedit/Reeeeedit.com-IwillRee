@@ -1,0 +1,17 @@
+# Reeeeedit.com-IwillRee
+<html>
+
+<head>
+  <link rel="stylesheet" href="basic.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="home">Home</div>
+    <div class="search">Search</div>
+    <div class="logout">Logout</div>
+  </div>
+</body>
+
+</html>
