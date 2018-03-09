@@ -13,7 +13,7 @@
     'menu main main main main main'
     'menu footer footer footer footer footer';
   grid-gap: 10px;
-  background-color: #00FF00;
+  background-color:  #FF66FF;
   padding: 10px;
 }
 .grid-container > div {
