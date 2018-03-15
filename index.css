@@ -1,19 +1,22 @@
 
-.item1 { grid-area: Data; }
-.item2 { grid-area: Homework; }
-.item3 { grid-area: Important; }
-.item4 { grid-area: Gaming; }
-.item5 { grid-area: LImportant; }
+.item1 { grid-area: Banner; }
+.item2 { grid-area: Nav; }
+.item3 { grid-area: Content; }
+.item4 { grid-area: Footer; }
+.item5 { grid-area: Left; }
 
 .grid-container {
   display: grid;
   grid-template-areas:
-    'Table Table Table Table Table Table'
-    'Gaming Gaming Gaming Gaming Gaming Gaming'
-    'Homework Important Important Important Important Important'
-    'Homework LImportant LImportant LImportant LImportant LImportant';
+    'Banner Banner Banner Banner Banner Banner'
+    'Nav Nav Nav Nav Nav Nav'
+    'Left Left Content Content Content Content'
+    'Left Left Content Content Content Content'
+    'Left Left Content Content Content Content'
+    'Left Left Content Content Content Content'
+    'Left Left Footer Footer Footer Footer';
   grid-gap: 10px;
-  background-color:  #FF66FF;
+  background-color: #FF66FF;
   padding: 10px;
 }
 .grid-container > div {
@@ -21,4 +24,4 @@
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
-
+}
