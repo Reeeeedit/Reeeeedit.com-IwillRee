@@ -3,7 +3,7 @@
 .item2 { grid-area: Homework; }
 .item3 { grid-area: Important; }
 .item4 { grid-area: Gaming; }
-.item5 { grid-area: Least Important; }
+.item5 { grid-area: LImportant; }
 
 .grid-container {
   display: grid;
@@ -11,7 +11,7 @@
     'Table Table Table Table Table Table'
     'Gaming Gaming Gaming Gaming Gaming Gaming'
     'Homework Important Important Important Important Important'
-    'Homework Least Important Least Important Least Important Least Important Least Important';
+    'Homework LImportant LImportant LImportant LImportant LImportant';
   grid-gap: 10px;
   background-color:  #FF66FF;
   padding: 10px;
