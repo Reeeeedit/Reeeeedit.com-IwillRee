@@ -1,4 +1,4 @@
-
+<style>
 .item1 { grid-area: Banner; }
 .item2 { grid-area: Nav; }
 .item3 { grid-area: Content; }
@@ -25,3 +25,4 @@
   padding: 20px 0;
   font-size: 30px;
 }
+</style>
